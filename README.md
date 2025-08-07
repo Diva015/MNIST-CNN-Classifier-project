@@ -1,7 +1,7 @@
 # MNIST Handwritten Digit Classification using CNN
 In this project, I've built a CNN (Convolutional Neural Network) using TensorFlow and Keras to classify handwritten digits from the MNIST dataset.
 
-## 📚 What is MNIST?
+## What is MNIST?
 * MNIST is a standard benchmark dataset in machine learning.
 * It contains 70,000 grayscale images of handwritten digits (0–9).
   - 60,000 images are used for training.
@@ -58,7 +58,7 @@ The CNN used in this project follows a standard layered structure:
 
 ---
 
-## 🏋️ Step 4: Training the Model
+## Step 4: Training the Model
 
 * The model is trained on the training set (`x_train`, `y_train`).
 * Validation data is provided to monitor performance on unseen data.
@@ -66,7 +66,7 @@ The CNN used in this project follows a standard layered structure:
 
 ---
 
-## 🧪 Step 5: Evaluating the Model
+## Step 5: Evaluating the Model
 
 * The trained model is evaluated on the test data (`x_test`, `y_test`).
 * The final test accuracy tells how well the model performs on unseen handwritten digits.
